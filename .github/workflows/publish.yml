@@ -15,5 +15,5 @@ jobs:
       - name: Build the Docker image
         run: |
           docker build . --tag ghcr.io/pastorrob/temp-cicd
-          docker run ghcr.io/pastorrob/temp-cicd:latest
-          docker push ghcr.io/pastorrob//temp-cicd:latest
+          docker run ghcr.io/pastor-robert/temp-cicd:latest
+          docker push ghcr.io/pastor-robert//temp-cicd:latest
