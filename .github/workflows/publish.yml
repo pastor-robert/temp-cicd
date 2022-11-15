@@ -14,6 +14,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build the Docker image
         run: |
-          docker build . --tag ghcr.io/pastorrob/temp-cicd
+          docker build . --tag ghcr.io/pastor-robert/temp-cicd
           docker run ghcr.io/pastor-robert/temp-cicd:latest
           docker push ghcr.io/pastor-robert//temp-cicd:latest
